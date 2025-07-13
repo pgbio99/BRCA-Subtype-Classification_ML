@@ -7,8 +7,8 @@ By leveraging tools such as differential expression analysis, protein-protein in
 
 🔬 Objectives
 
-Identify DEGs linked to breast cancer subtypes using GEO microarray data. Construct PPI networks and identify key hub genes.
-Perform subtype-specific DEG analysis to find unique molecular signatures. Develop ML models for subtype classification and biomarker prioritization.
+Identify DEGs linked to breast cancer subtypes using GEO microarray data, then onstruct PPI networks and identify key hub genes.
+Perform subtype-specific DEG analysis to find unique molecular signatures, followed by developing ML models for subtype classification and biomarker prioritization.
 
 🧪 Datasets Used
 
