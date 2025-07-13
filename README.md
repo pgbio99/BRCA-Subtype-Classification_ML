@@ -7,7 +7,7 @@ By leveraging tools such as differential expression analysis, protein-protein in
 
 🔬 Objectives
 
-Identify DEGs linked to breast cancer subtypes using GEO microarray data, then onstruct PPI networks and identify key hub genes.
+Identify DEGs linked to breast cancer subtypes using GEO microarray data, then construct PPI networks and identify key hub genes.
 Perform subtype-specific DEG analysis to find unique molecular signatures, followed by developing ML models for subtype classification and biomarker prioritization.
 
 🧪 Datasets Used
@@ -23,6 +23,12 @@ Perform subtype-specific DEG analysis to find unique molecular signatures, follo
  **Databases**: GEO, STRING, Enrichr, TNMplot, GEPIA2, cBioPortal 
  **Software**: Cytoscape, Google Colab
 
+🧬 Bioinformatic Analysis
+
+ **72 common DEGs** identified between datasets
+ **10 hub genes** highlighted from the PPI network (e.g., KIT, TPM3, MYLK, COL10A1)
+ **Survival analysis** confirmed clinical significance of multiple genes.
+  
 🧠 Machine Learning Models
 
 | Model         | Accuracy | F1 Score | Sensitivity | Specificity |
@@ -33,11 +39,9 @@ Perform subtype-specific DEG analysis to find unique molecular signatures, follo
 - **Random Forest** showed superior performance on microarray data.
 - Feature importance was used to prioritize candidate biomarker genes.
 
- **72 common DEGs** identified between datasets
- **10 hub genes** highlighted from the PPI network (e.g., KIT, TPM3, MYLK, COL10A1)
+**5276 subtype specific DEGs** involved in ML modeling
  **35 candidate biomarkers** prioritized via ML, including:  
   `TMEM45B`, `POF1B`, `STIL`, `DNA2`, `E2F7`, `RARA`, `HSPA5`, etc.
- **Survival analysis** confirmed clinical significance of multiple genes.
 
  📂 Project Structure
 
